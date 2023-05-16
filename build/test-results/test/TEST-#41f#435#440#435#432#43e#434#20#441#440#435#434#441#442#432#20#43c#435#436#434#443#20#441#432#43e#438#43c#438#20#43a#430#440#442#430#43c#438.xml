@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Перевод средств между своими картами" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-16T16:18:59" hostname="PC002" time="4.352">
+  <properties/>
+  <testcase name=": Перевод пользователем существующей суммы со своей второй карты на свою первую карту (позитивный)" classname="Перевод средств между своими картами" time="4.352"/>
+  <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: : РџРµСЂРµРІРѕРґ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµР№ СЃСѓРјРјС‹ СЃРѕ СЃРІРѕРµР№ РІС‚РѕСЂРѕР№ РєР°СЂС‚С‹ РЅР° СЃРІРѕСЋ РїРµСЂРІСѓСЋ РєР°СЂС‚Сѓ (РїРѕР·РёС‚РёРІРЅС‹Р№)          ?[90m# src/test/resources/features/TransferTest.feature:5?[0m
+  ?[32mРџСѓСЃС‚СЊ ?[0m?[32mРїРѕР»СЊР·РѕРІР°С‚РµР»СЊ Р·Р°Р»РѕРіРёРЅРµРЅ СЃ РёРјРµРЅРµРј В«vasyaВ» Рё РїР°СЂРѕР»РµРј В«qwerty123В»?[0m                                                 ?[90m# ru.netology.steps.TransferSteps.loginWithNameAndPassword()?[0m
+  ?[32mРљРѕРіРґР° ?[0m?[32mРїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РїРµСЂРµРІРѕРґРёС‚ ?[0m?[32m?[1m5000?[0m?[32m СЂСѓР±Р»РµР№ СЃ РєР°СЂС‚С‹ СЃ РЅРѕРјРµСЂРѕРј ?[0m?[32m?[1m"5559 0000 0000 0002"?[0m?[32m РЅР° СЃРІРѕСЋ ?[0m?[32m?[1m1?[0m?[32m РєР°СЂС‚Сѓ СЃ РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹?[0m ?[90m# ru.netology.steps.TransferSteps.transferExistedMoneyAmountCardWithNumberToCardWithIndex(java.lang.Integer,java.lang.String,java.lang.Integer)?[0m
+  ?[32mРўРѕРіРґР° ?[0m?[32mР±Р°Р»Р°РЅСЃ РµРіРѕ ?[0m?[32m?[1m1?[0m?[32m РєР°СЂС‚С‹ РёР· СЃРїРёСЃРєР° РЅР° РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†Рµ РґРѕР»Р¶РµРЅ СЃС‚Р°С‚СЊ ?[0m?[32m?[1m15000?[0m?[32m СЂСѓР±Р»РµР№?[0m                                    ?[90m# ru.netology.steps.TransferSteps.checkCardBalanceByCardIndex(java.lang.Integer,java.lang.Integer)?[0m
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\Markelov\Java-projects\AQA\AQA-2-4-2-fix\AQA-2-4-2\build\downloads\1684253940115_7512_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\m.markelov\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 34850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+мая 16, 2023 7:19:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=113.0.5672.93 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.13.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.3 build revision: e5e76298c3
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (93f0a7d935f09e1ee4802df2ea3f92d1)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (93f0a7d935f09e1ee4802df2ea3f92d1),proxy=null,downloadsFolder=D:\Markelov\Java-projects\AQA\AQA-2-4-2-fix\AQA-2-4-2\build\downloads\1684253940115_7512_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+]]></system-err>
+</testsuite>
